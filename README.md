@@ -56,8 +56,8 @@ Written in **Move Language** and powered by the **Sui Framework**.
 
 📋 User Flow
 
-Connect Wallet
-View Dashboard
-Claim Test Tokens
-Create Escrow
-Manage Escrows
+- Connect Wallet
+- View Dashboard
+- Claim Test Tokens
+- Create Escrow
+- Manage Escrows
