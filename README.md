@@ -1,34 +1,34 @@
 # SUI Escrow Workshop - Yogyakarta 🚀
 
-## Deskripsi Proyek
-Proyek ini adalah platform **Decentralized Escrow** yang dibangun di atas blockchain **SUI**. Aplikasi ini memungkinkan pengguna untuk melakukan penukaran token (swap) secara peer-to-peer dengan aman menggunakan smart contract on-chain.
+## Project Description
+This project is a **Decentralized Escrow** platform built on the **SUI blockchain**. The application enables users to perform secure, peer-to-peer token swaps using on-chain smart contracts.
 
-Versi ini (V2) telah dirapikan strukturnya dengan memisahkan antara kode **Frontend** dan **Smart Contract**, serta menambahkan fitur **Wallet Login Gate** yang mengharuskan pengguna terhubung ke wallet SUI sebelum dapat mengakses dashboard utama.
+Version V2 has been refined by separating the **Frontend** and **Smart Contract** codebases, and implementing a **Wallet Login Gate** that requires users to connect their SUI wallet before accessing the main dashboard.
 
-### Fitur Utama:
-- 🔐 **Wallet Gate**: Login menggunakan SUI Wallet (Suiet, Sui Wallet, dll).
-- 🔄 **Escrow Management**: Membuat, menerima, dan membatalkan escrow secara langsung.
-- 💰 **Balance Tracker**: Melihat saldo SUI dan berbagai Mock Coins secara real-time.
-- 💧 **Faucet System**: Klaim token dummy untuk keperluan testing di Testnet.
+### Key Features:
+- 🔐 **Wallet Gate**: Secure login using SUI Wallets (Suiet, Sui Wallet, etc.).
+- 🔄 **Escrow Management**: Seamlessly create, accept, and cancel escrows.
+- 💰 **Balance Tracker**: Real-time monitoring of SUI and various Mock Coin balances.
+- 💧 **Faucet System**: Integrated system to claim dummy tokens for testing on the Testnet.
 
 ---
 
 ## Tech Stack
-Aplikasi ini dikembangkan menggunakan teknologi modern:
+The application is built using a modern technology stack:
 
 - **Frontend**: [Next.js 15](https://nextjs.org/) (App Router)
 - **Blockchain Integration**: [@mysten/dapp-kit](https://sdk.mystenlabs.com/dapp-kit)
-- **Styling**: [TailwindCSS v4](https://tailwindcss.com/) dengan desain Brutalist
+- **Styling**: [TailwindCSS v4](https://tailwindcss.com/) with a Brutalist design aesthetic
 - **State Management**: [TanStack Query v5](https://tanstack.com/query)
 - **Smart Contract**: [SUI Move](https://sui.io/)
 - **Icons**: Lucide React
 
 ---
 
-## Cara Install
-Ikuti langkah-langkah berikut untuk menginstalnya secara lokal:
+## Installation Guide
+Follow these steps to set up the project locally:
 
-### 1. Clone Repository
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/Areyaaa/Result-Sui-Workshop-Yogyakarta.git
 cd Result-Sui-Workshop-Yogyakarta
@@ -40,8 +40,8 @@ cd frontend
 npm install
 ```
 
-### 3. Build Smart Contract (Opsional)
-Pastikan Anda sudah menginstal [Sui CLI](https://docs.sui.io/guides/developer/getting-started/sui-install).
+### 3. Build Smart Contracts (Optional)
+Ensure you have the [Sui CLI](https://docs.sui.io/guides/developer/getting-started/sui-install) installed.
 ```bash
 cd ../smart-contract
 sui move build
@@ -49,18 +49,18 @@ sui move build
 
 ---
 
-## Cara Run
-Untuk menjalankan aplikasi dalam mode development:
+## How to Run
+To run the application in development mode:
 
-### Running Frontend
+### Running the Frontend
 ```bash
 cd frontend
 npm run dev
 ```
-Buka [http://localhost:3000](http://localhost:3000) di browser Anda.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### Testing Smart Contract
-Jika ingin mencoba unit test pada smart contract:
+### Testing Smart Contracts
+To run unit tests for the smart contracts:
 ```bash
 cd smart-contract
 sui move test
@@ -68,7 +68,7 @@ sui move test
 
 ---
 
-## Informasi Kontrak
+## Contract Information
 - **Network**: SUI Testnet
 - **Package ID**: `0xfe02aaaf954b752272ea188d398e36d1d117d3641f4b90d21b2f0df3dfcf18a2`
 - **Faucet ID**: `0x4f5135f2706e1371adf34002e351c76d9c42d0b3a10c0a5dcc32e0f7605d48b0`
