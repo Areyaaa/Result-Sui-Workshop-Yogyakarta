@@ -45,3 +45,22 @@ yarn-error.log*
 # VS Code
 .vscode/
 **/.vscode/
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+
+# Cache
+.cache/
+**/.cache/
+
+# Temp
+tmp/
+temp/
+
+# Package manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
