@@ -66,12 +66,4 @@ cd smart-contract
 sui move test
 ```
 
----
-
-## Contract Information
-- **Network**: SUI Testnet
-- **Package ID**: `0xfe02aaaf954b752272ea188d398e36d1d117d3641f4b90d21b2f0df3dfcf18a2`
-- **Faucet ID**: `0x4f5135f2706e1371adf34002e351c76d9c42d0b3a10c0a5dcc32e0f7605d48b0`
-
----
 Copyright © 2026 - Result SUI Workshop Yogyakarta
